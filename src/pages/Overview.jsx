@@ -6,7 +6,7 @@ import { getOverviewStats } from '../utils/schedulerLogic';
 import OverviewPanel from '../components/OverviewPanel';
 
 const Overview = () => {
-  const { scheduledEvents, setViewMode, selectedDates } = useScheduler();
+  const { scheduledEvents, setViewMode } = useScheduler();
 
   const handleExportToExcel = () => {
     if (Object.keys(scheduledEvents).length === 0) {
