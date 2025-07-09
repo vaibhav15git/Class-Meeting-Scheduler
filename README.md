@@ -13,3 +13,7 @@ npm install
 
 # 3. Start the app
 npm run dev
+
+ 🚀 Live Demo
+👉 [Live Demo on Vercel](https://class-meeting-scheduler.vercel.app)
+
